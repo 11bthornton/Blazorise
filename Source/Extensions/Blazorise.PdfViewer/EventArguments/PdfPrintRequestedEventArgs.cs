@@ -9,7 +9,7 @@ public class PdfPrintRequestedEventArgs
     /// Initializes a new instance of the <see cref="PdfPrintRequestedEventArgs"/> class
     /// with the specified page number.
     /// </summary>
-    /// <param name="pageNumber">The current page number of the PDF document when the document was requested to be printed.</param>
+    /// <param name="pageNumber">The current page number of the PDF document.</param>
     public PdfPrintRequestedEventArgs( int pageNumber )
     {
         PageNumber = pageNumber;
