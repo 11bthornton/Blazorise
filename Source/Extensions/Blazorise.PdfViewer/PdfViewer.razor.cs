@@ -344,8 +344,7 @@ public partial class PdfViewer : BaseComponent, IAsyncDisposable
     [Parameter] public EventCallback<PdfLoadedEventArgs> Loaded { get; set; }
 
     /// <summary>
-    /// Gets or sets the callback event that is triggered when the PDF document is requested
-    /// to be printed.
+    /// Gets or sets the callback event that is triggered when the PDF document is requested to be printed.
     /// </summary>
     [Parameter] public EventCallback PrintRequested { get; set; }
 
